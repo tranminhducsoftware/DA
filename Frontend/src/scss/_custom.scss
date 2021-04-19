@@ -1,1 +1,132 @@
 // Here you can add other styles
+.background-dark {
+    background-color: #151b26 !important;
+}
+a.c-sidebar-nav-link {
+    height: 32px;
+    line-height: 32px;
+    font-weight: 400;
+    padding: 5px 24px 5px 24px;
+}
+.c-sidebar .c-sidebar-nav-link.c-active,
+.c-sidebar .c-active.c-sidebar-nav-dropdown-toggle {
+    background: #3b4049;
+}
+.c-sidebar .c-sidebar-nav-link:hover,
+.c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+    background: #272d37;
+}
+ul.c-sidebar-nav.h-100.ps {
+    background: #111622;
+}
+li.c-sidebar-nav-divider.border-top-1 {
+    border-bottom: 1px solid #273240;
+    padding: 8px 0;
+}
+.card-bg-dark.card {
+    background: #111622;
+    padding: 0px;
+    border: 0px;
+    border-bottom: 1px solid #273240;
+    margin: 0;
+}
+.card-bg-dark.card > header.card-header {
+    background: #111622;
+    border: 0px;
+}
+.color-dark {
+    color: #9ca6af;
+    font-size: 15px;
+    cursor: pointer;
+}
+.float-right {
+    float: right;
+}
+.body-card-nav {
+    padding: 0px 15px 10px 15px;
+}
+.btn-field-nav {
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+    padding-left: 15px;
+    color: white;
+    border-radius: 0px;
+}
+.header-field-nav {
+    padding: 0;
+    padding-top: 5px;
+}
+.icon-plus-nav {
+    font-size: 12px;
+    position: absolute;
+    right: 30px;
+    top: 47%;
+}
+.btn-invite-people-nav {
+    color: white;
+    border-radius: 5px;
+    background: #111622;
+    line-height: 32px;
+    padding: 0px 2px;
+}
+.btn-invite-people-nav:hover {
+    background: #2d323c;
+    color: white;
+}
+.c-avatar.avatar-nav > span {
+    width: 25px;
+    border-radius: 50%;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 11px;
+}
+.ul-project-nav {
+    margin-top: 10px;
+    padding: 0px;
+    list-style: none;
+}
+.li-project-nav {
+    display: flex;
+    padding: 5px 15px;
+}
+.li_div-project-nav {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    background: rebeccapurple;
+    margin-top: 5px;
+}
+li.li-project-nav:hover {
+    background: #2d323c;
+    cursor: pointer;
+}
+.ul-support-nav {
+    padding: 0;
+}
+.li-support-nav {
+    padding: 15px 15px;
+}
+li.li-support-nav:hover {
+    background: #2d323c;
+    cursor: pointer;
+}
+.icon-support-nav {
+    padding: 3px 10px;
+    background: rebeccapurple;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.img-invite-nav {
+    width: 27px;
+    margin-right: 9px;
+}
+.li-invite-nav {
+    border-bottom: 1px solid #26313f;
+}
+//////////main
+main.c-main {
+    background: #ffffff;
+    padding: 0;
+}

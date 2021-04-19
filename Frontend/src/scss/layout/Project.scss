@@ -1,0 +1,80 @@
+element.style {
+}
+.heder-project-wrapper-icon-avatar {
+    border-radius: 12px;
+    height: 48px;
+    width: 48px;
+    align-items: center;
+    background: #cbd4db;
+    -webkit-print-color-adjust: exact;
+    display: flex;
+    fill: #fff;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+.heder-project-icon-avatar {
+    font-size: 20px;
+}
+.heder-project-wrapper-col {
+    display: flex;
+}
+.heder-project-wrapper.row {
+    padding: 0px 15px;
+    height: 70px;
+    border-bottom: 1px solid #ebebf1;
+}
+.Wrapper-heder-project-top {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+h5.heder-project-top-name {
+    margin-left: 15px;
+    line-height: 42px;
+    font-size: 20px;
+}
+svg.svg-inline--fa.fa-sort-down.fa-w-10.heder-project-top-icon-detail {
+    line-height: 40px;
+    width: 18px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+svg.svg-inline--fa.fa-star.fa-w-18.heder-project-top-icon-star {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 13px;
+}
+span.heder-project-top-text-status {
+    margin-left: 15px;
+    margin-top: 11px;
+}
+.Wrapper-heder-project-bottom {
+    width: 100%;
+    height: 35px;
+    bottom: 0px;
+    position: absolute;
+    left: 68px;
+    margin-bottom: 8px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+a.c-header-nav-link {
+    color: #6f7782;
+    font-size: 14px;
+    font-weight: 600;
+}
+li.c-header-nav-item:hover a {
+    color: black;
+    border-bottom: 2px solid black;
+}
+a.c-header-nav-link.active {
+    color: #ff4949!important;
+    font-weight: 600;
+    border-bottom: 2px solid #ff4949!important;
+}
+.Wrapper-heder-project-bottom a.c-header-nav-link {
+    padding-bottom: 6px;
+}

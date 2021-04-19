@@ -18,7 +18,8 @@ const loading = (
 const TheContent = () => {
   return (
     <main className="c-main">
-      <CContainer fluid>
+      {/* <CContainer fluid> */}
+      <section>
         <Suspense fallback={loading}>
           <Switch>
             {routes.map((route, idx) => {
@@ -38,7 +39,8 @@ const TheContent = () => {
             <Redirect from="/" to="/dashboard" />
           </Switch>
         </Suspense>
-      </CContainer>
+        </section>
+      {/* </CContainer> */}
     </main>
   )
 }

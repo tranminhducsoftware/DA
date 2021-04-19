@@ -39,12 +39,8 @@ const Users = React.lazy(() => import('./views/users/Users'));
 const User = React.lazy(() => import('./views/users/User'));
 
 //news
-const Board = React.lazy(() => import('./views/_admin/board/Board'));
-const TimeLine = React.lazy(() => import('./views/_admin/timeline/TimeLine'));
-const DashboardChart = React.lazy(() => import('./views/_admin/dashboard/DashBoard'));
-const List = React.lazy(() => import('./views/_admin/list/List'));
 const Home = React.lazy(() => import('./views/_admin/home/Home'));
-const Overview = React.lazy(() => import('./views/_admin/overview/Overview'));
+const Project = React.lazy(() => import('./views/_admin/project/Layout'));
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
@@ -88,12 +84,8 @@ const routes = [
   { path: '/users', exact: true,  name: 'Users', component: Users },
   { path: '/users/:id', exact: true, name: 'User Details', component: User },
   //news
-  { path: '/_admin/board', name: 'Admin-Board', component: Board },
-  { path: '/_admin/timeline', name: 'Admin-TimeLine', component: TimeLine },
-  { path: '/_admin/dashboard', name: 'Admin-Dashboard', component: DashboardChart },
-  { path: '/_admin/list', name: 'Admin-List', component: List },
   { path: '/_admin/home', name: 'Admin-Home', component: Home },
-  { path: '/_admin/overview', name: 'Admin-Overview', component: Overview },
+  { path: '/_admin/project', name: 'Admin-Project', component: Project },
   
  
 
