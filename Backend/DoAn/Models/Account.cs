@@ -15,9 +15,9 @@ namespace DoAn.Models
         [Required]
         public string Password { get; set; }
 
-        public string RoleId { get; set; }
+        public string Role { get; set; }
 
-        public string CreatedUser { get; set; }
+        public bool isLocked { get; set; }
 
         public string Note { get; set; }
     }

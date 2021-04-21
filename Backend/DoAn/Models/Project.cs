@@ -11,23 +11,26 @@ namespace DoAn.Models
     public class Project : BaseEntity
     {
         [Required]
-        public int FieldId { get; set; }
+        public string Name { get; set; }
 
-        [Required]
-        public string ProjectName { get; set; }
-
-        [Required]
-        public string SortName { get; set; }
-
-        public int UserCreated { get; set; }
-
-        public DateTime EndDateTime { get; set; }
-
-        public int PrivacyId { get; set; }
+        public int Owner { get; set; }
 
         public int DefaultViewId { get; set; }
 
-        public int OwnProject { get; set; }
+        public int PrivacyId { get; set; }
+
+        public int TeamId { get; set; }
+
+        public int IconId { get; set; }
+
+        public int ColorId { get; set; }
+
+        public string Description { get; set; }
+
+        public DateTime EndTime { get; set; }
+
+        public int Status { get; set; }
+
 
     }
 }

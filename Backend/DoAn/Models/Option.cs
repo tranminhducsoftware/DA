@@ -7,12 +7,14 @@ using DoAn.Models.Context;
 
 namespace DoAn.Models
 {
-    public class Field : BaseEntity
+    public class Option : BaseEntity
     {
-        [Required]
         public string Name { get; set; }
 
-        public string Description { get; set; }
+        [Required]
+        public string Key { get; set; }
+
+        public string Value { get; set; }
 
         public string Note { get; set; }
     }

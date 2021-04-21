@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\KTPM2\\_DA\\DoAn\\Backend\\DoAn\\DoAn.csproj": {}
+    "D:\\Work\\KTPM2\\_DA\\DA\\Backend\\DoAn\\DoAn.csproj": {}
   },
   "projects": {
-    "D:\\Work\\KTPM2\\_DA\\DoAn\\Backend\\DoAn\\DoAn.csproj": {
+    "D:\\Work\\KTPM2\\_DA\\DA\\Backend\\DoAn\\DoAn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\KTPM2\\_DA\\DoAn\\Backend\\DoAn\\DoAn.csproj",
+        "projectUniqueName": "D:\\Work\\KTPM2\\_DA\\DA\\Backend\\DoAn\\DoAn.csproj",
         "projectName": "DoAn",
-        "projectPath": "D:\\Work\\KTPM2\\_DA\\DoAn\\Backend\\DoAn\\DoAn.csproj",
+        "projectPath": "D:\\Work\\KTPM2\\_DA\\DA\\Backend\\DoAn\\DoAn.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\KTPM2\\_DA\\DoAn\\Backend\\DoAn\\obj\\",
+        "outputPath": "D:\\Work\\KTPM2\\_DA\\DA\\Backend\\DoAn\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
