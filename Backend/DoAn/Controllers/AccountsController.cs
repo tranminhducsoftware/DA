@@ -69,6 +69,7 @@ namespace DoAn.Controllers
         /// <param name="account">tài khoản.</param>
         /// <returns>Kết quả.</returns>
         /// <response code="201">Tạo thành công</response>
+        [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult<Account>> CreateAccount(Account accountToCreate)
         {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ysux0aKJBWib6h2X3USvjToOsFXxYns2t70QnwAG+AnkZmvYq5eg/W7zLfBM86DMlztEsrqcGT5GKq2pLcelsg==",
+  "dgSpecHash": "FHQy4MGfR79M5bTSbHSWMK3/X83GJ5iDvqpDW008vLVjzUl9ldBDVaAtpHAMSHqoX2wZ62/cZgHniVNGMKEnng==",
   "success": true,
-  "projectFilePath": "D:\\Work\\KTPM2\\_DA\\DoAn\\Backend\\DoAn\\DoAn.csproj",
+  "projectFilePath": "D:\\Work\\KTPM2\\_DA\\DA\\Backend\\DoAn\\DoAn.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\core.identity\\1.2.7\\core.identity.1.2.7.nupkg.sha512",

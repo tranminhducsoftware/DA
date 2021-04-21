@@ -23,6 +23,9 @@ using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.UI;
+using DoAn.Modules.Teams;
+using DoAn.Modules.Icons;
+
 namespace DoAn
 {
     public class Startup
@@ -48,7 +51,12 @@ namespace DoAn
             services.AddJwtAuthentication(Configuration);
             services.AddConfiguredSwagger();
             services.AddScoped<IRepository<Account>, Reponsitory<Account>>();
+            services.AddScoped<IRepository<Team>, Reponsitory<Team>>();
+            services.AddScoped<IRepository<Icon>, Reponsitory<Icon>>();
+
             services.AddScoped<IAccountService, AccountService>();
+            services.AddScoped<ITeamService, TeamService>();
+            services.AddScoped<IIconServices, IconServices>();
 
         }
 
